@@ -1,0 +1,37 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.page-header {
+  margin-top: 3rem;
+}
+
+div.tooltip {
+  color: white;
+  position: absolute;
+  text-align: center;
+  // width: 60px;
+  // height: 28px;
+  padding: 1px 4px;
+  font: 20px sans-serif;
+  background: rgba(3, 3, 3, 0.9);
+  // border: 2px solid black;
+  pointer-events: none;
+}
+
+#q {
+  width: 70%;
+}
+
+// #filter {
+//   width: 8%;
+// }
+
+#butt {
+  width: 25%;
+}
+
+.load {
+  padding: 3rem;
+  text-align: center;
+}

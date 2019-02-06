@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="brunch skeleton for people who want to have fun"
+    />
+    <meta name="author" content="Johannes Filter" />
+    <title>Das Netzwerk deutscher Unternehmen</title>
+    <meta property="og:title" content="Das Netzwerk deutscher Unternehmen" />
+    <meta
+      property="og:description"
+      content="brunch skeleton for people who want to have fun"
+    />
+    <!-- best size for Facebook: 1300 X 630 px -->
+    <meta
+      property="og:image"
+      content="https://vis.one/netzwerk-deutscher-unternehmen/thumbnail.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://vis.one/netzwerk-deutscher-unternehmen"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Johannes Filter" />
+    <meta property="article:author" content="http://facebook.com/filter0" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@fil_ter" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="page-header">
+            <h1>
+              Das Netzwerk
+              <br />
+              <small class="text-muted">deutscher Unternehmen</small>
+            </h1>
+          </div>
+          <hr />
+          <article>
+            Zum erstem mal sind die Registerdaten offen. Das lädt zum Spielen
+            ein. Anbei ein erster Versuch die Netzwerkstruktur der Daten
+            wiederzugeben. Mit Stichwörtern nach Unternehmen suchen und
+            loslegen!
+          </article>
+          <hr />
+          <footer>
+            <small>
+              von <a href="https://johannesfilter.com">Johannes Filter</a>,
+              CC-By 4.0
+              <a href="https://opencorporates.com/">OpenCorporates</a>, via
+              <a href="https://db.offeneregister.de/">db.offeneregister.de</a>
+            </small>
+            <br />
+            <br />
+          </footer>
+          <div>
+            <form id="for" onsubmit="return false;">
+              <input type="text" id="q" value="Deutsche Wohnen" />
+              <input type="submit" value="Suchen" id="butt" />
+              <br />
+              <br />
+              Minimum Verknüpfung:
+              <input type="number" id="filter" value="0" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+    <script src="js/vendor.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
