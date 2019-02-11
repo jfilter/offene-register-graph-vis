@@ -35,3 +35,9 @@ div.tooltip {
   padding: 3rem;
   text-align: center;
 }
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/lato-latin-400.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('/lato-latin-400.woff') format('woff'); /* Pretty Modern Browsers */
+}
